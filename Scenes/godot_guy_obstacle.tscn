@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceaeyfdt53klb"]
+
+[ext_resource type="Texture2D" uid="uid://da38sjs8aeq8w" path="res://icon.svg" id="1_elkua"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7j5ty"]
+size = Vector2(519.5, 87)
+
+[node name="GodotGuyObstacle" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_7j5ty")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D"]
+scale = Vector2(4.070312, 0.6796875)
+texture = ExtResource("1_elkua")

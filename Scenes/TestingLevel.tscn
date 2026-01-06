@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnr7vra7muiju"]
+
+[ext_resource type="PackedScene" uid="uid://bo7vdsd7hojiw" path="res://Scenes/godot_guy.tscn" id="1_51ftu"]
+[ext_resource type="PackedScene" uid="uid://ceaeyfdt53klb" path="res://Scenes/godot_guy_obstacle.tscn" id="2_q3ya3"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="GodotGuy" parent="." instance=ExtResource("1_51ftu")]
+
+[node name="GodotGuy2" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(-287, -55)
+
+[node name="GodotGuy3" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(259, -117)
+
+[node name="GodotGuy4" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(-119, -291)
+
+[node name="GodotGuy5" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(166, -354)
+
+[node name="GodotGuy6" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(-429, -416)
+
+[node name="GodotGuy7" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(400, -483)
+
+[node name="GodotGuy8" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(-5, -557)
+
+[node name="GodotGuy9" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(229, -692)
+
+[node name="GodotGuy10" parent="." instance=ExtResource("1_51ftu")]
+position = Vector2(-226, -691)
+
+[node name="GodotGuyObstacle" parent="." instance=ExtResource("2_q3ya3")]
+position = Vector2(-375, 188)
+rotation = 0.51832396
+
+[node name="GodotGuyObstacle2" parent="." instance=ExtResource("2_q3ya3")]
+position = Vector2(261, 118)
+
+[node name="GodotGuyObstacle3" parent="." instance=ExtResource("2_q3ya3")]
+position = Vector2(568, -298)
+rotation = -0.81447816
+
+[node name="GodotGuyObstacle4" parent="." instance=ExtResource("2_q3ya3")]
+position = Vector2(566.00006, 77)
+rotation = -1.575263
